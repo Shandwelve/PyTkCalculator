@@ -29,6 +29,8 @@ class Calculator:
     def __init__(self):
         self.window.geometry('600x600')
         self.window['background'] = 'black'
+        self.window.title('Py Calculator')
+        self.window.iconbitmap('calculator-icon.ico')
         self.make_calculator_template()
 
     def make_calculator_template(self):
